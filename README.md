@@ -2,6 +2,8 @@
 
 Koleksi materi pembelajaran Python untuk siswa SMA dan guru informatika.
 
+**Live Site:** [https://natedekaka.github.io/python-learning/](https://natedekaka.github.io/python-learning/)
+
 ## 📚 Modul Pembelajaran
 
 - **[Kurikulum Python Lengkap](modules/kurikulum.html)** - 6 modul dari dasar hingga Flask
@@ -10,34 +12,19 @@ Koleksi materi pembelajaran Python untuk siswa SMA dan guru informatika.
 - **[Tutorial File I/O](modules/file-io.html)** - Manipulasi file CSV & JSON
 - **[Latihan Python](modules/latihan.html)** - Kumpulan latihan coding
 
-## 🚀 Deploy ke GitHub Pages
+## 🚀 Enable GitHub Pages
 
-### Opsi 1: Menggunakan GitHub CLI (Recommended)
+Repository sudah dipush ke: https://github.com/natedekaka/python-learning
 
-```bash
-# 1. Login ke GitHub
-gh auth login
+**Langkah aktivasi:**
+1. Buka: https://github.com/natedekaka/python-learning/settings/pages
+2. Di "Build and deployment" → Source: pilih **"Deploy from a branch"**
+3. Branch: pilih **"main"** dan folder **"/ (root)"**
+4. Klik **Save**
 
-# 2. Create repo dan push
-cd ~/projects/python_learning
-gh repo create python-learning --public --source=. --push
+Website akan tersedia di: `https://natedekaka.github.io/python-learning/`
 
-# 3. Enable GitHub Pages
-gh repo edit daniarsyah/python-learning --enable-pages --branch main
-```
-
-### Opsi 2: Manual via Web
-
-```bash
-# 1. Buat repo di https://github.com/new (nama: python-learning)
-# 2. Push ke GitHub
-cd ~/projects/python_learning
-git remote add origin https://github.com/daniarsyah/python-learning.git
-git push -u origin main
-# 3. Buka Settings → Pages → Enable dari branch `main`
-```
-
-Website akan tersedia di: `https://daniarsyah.github.io/python-learning/`
+> ⏳ Tunggu 1-2 menit setelah aktivasi untuk deployment selesai.
 
 ## 🛠️ Tools
 
