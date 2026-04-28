@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Learning Hub - Belajar Python dari Dasar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <a href="/" class="logo">🐍 Python Learning Hub</a>
+            <nav>
+                <a href="#modules">Modul</a>
+                <a href="#progress">Progress</a>
+                <a href="https://github.com/daniarsyah/python-learning" target="_blank">GitHub</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <h1>🎓 Belajar Python<br>Dari Dasar hingga Aplikasi</h1>
+            <p>Koleksi materi pembelajaran Python untuk siswa SMA dan guru informatika. Dilengkapi dengan contoh kode, latihan praktik, dan kurikulum terstruktur.</p>
+            <a href="#modules" style="display: inline-block; background: var(--primary); color: white; padding: 0.8rem 2rem; border-radius: 8px; font-weight: 600;">Mulai Belajar →</a>
+        </div>
+    </section>
+
+    <!-- Modules -->
+    <section id="modules" class="modules-section">
+        <div class="container">
+            <h2 class="section-title">📚 Modul Pembelajaran</h2>
+            
+            <div class="module-grid">
+                <!-- Kurikulum Utama -->
+                <a href="modules/kurikulum.html" class="module-card">
+                    <h3>📖 Kurikulum Python Lengkap</h3>
+                    <p>Panduan dari sintaks dasar hingga membuat aplikasi web sekolah dengan Flask. Terdiri dari 6 modul utama.</p>
+                    <div class="module-meta">
+                        <span class="tag">Fundamental</span>
+                        <span class="tag green">6 Modul</span>
+                        <span class="tag purple">Flask</span>
+                    </div>
+                </a>
+
+                <!-- Kurikulum Guru -->
+                <a href="modules/kurikulum-guru.html" class="module-card">
+                    <h3>👨‍🏫 Kurikulum Guru Informatika</h3>
+                    <p>Kurikulum khusus untuk guru informatika. Termasuk tips mengajar, latihan siswa, dan contoh aplikasi sekolah.</p>
+                    <div class="module-meta">
+                        <span class="tag">Guru</span>
+                        <span class="tag green">Tips Mengajar</span>
+                    </div>
+                </a>
+
+                <!-- Bahan Ajar SMA -->
+                <a href="modules/bahan-ajar-sma.html" class="module-card">
+                    <h3>🏫 Bahan Ajar Siswa SMA</h3>
+                    <p>Materi pembelajaran Python yang disesuaikan dengan kurikulum sekolah menengah atas. Praktis dan mudah dipahami.</p>
+                    <div class="module-meta">
+                        <span class="tag">SMA</span>
+                        <span class="tag green">Ready-to-Teach</span>
+                    </div>
+                </a>
+
+                <!-- File I/O -->
+                <a href="modules/file-io.html" class="module-card">
+                    <h3>💾 Tutorial File I/O</h3>
+                    <p>Belajar manipulasi file di Python: CSV, JSON, dan tekhnik penyimpanan data untuk aplikasi nyata.</p>
+                    <div class="module-meta">
+                        <span class="tag">Data</span>
+                        <span class="tag purple">CSV/JSON</span>
+                    </div>
+                </a>
+
+                <!-- Latihan -->
+                <a href="modules/latihan.html" class="module-card">
+                    <h3>✏️ Latihan Python</h3>
+                    <p>Kumpulan latihan coding Python dengan berbagai tingkat kesulitan. Cocok untuk persiapan ujian atau kompetisi.</p>
+                    <div class="module-meta">
+                        <span class="tag">Practice</span>
+                        <span class="tag green">Exercises</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Progress -->
+    <section id="progress" class="modules-section">
+        <div class="container">
+            <div class="progress-section">
+                <h2 style="margin-bottom: 1rem;">📊 Progress Belajar</h2>
+                <p style="color: var(--text-muted); margin-bottom: 1rem;">Lacak progress belajar kamu di setiap modul.</p>
+                
+                <div style="margin-bottom: 1rem;">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                        <span>Kurikulum Dasar</span>
+                        <span>0% (0/6)</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 0%"></div>
+                    </div>
+                </div>
+
+                <div style="margin-bottom: 1rem;">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                        <span>File I/O & Data</span>
+                        <span>0% (0/1)</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 0%"></div>
+                    </div>
+                </div>
+
+                <div style="margin-bottom: 1rem;">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                        <span>Latihan Praktik</span>
+                        <span>0% (0/5)</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 0%"></div>
+                    </div>
+                </div>
+
+                <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 1.5rem;">
+                    💡 Tips: Gunakan localStorage browser untuk menyimpan progress secara otomatis.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Python Files -->
+    <section class="modules-section">
+        <div class="container">
+            <h2 class="section-title">🐍 File Latihan Python</h2>
+            <div style="background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.5rem;">
+                <p style="margin-bottom: 1rem;">File Python untuk latihan langsung:</p>
+                <ul style="list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.5rem;">
+                    <li style="padding: 0.5rem; background: #f8fafc; border-radius: 6px;">📄 variabel.py</li>
+                    <li style="padding: 0.5rem; background: #f8fafc; border-radius: 6px;">📄 list.py</li>
+                    <li style="padding: 0.5rem; background: #f8fafc; border-radius: 6px;">📄 dictionary.py</li>
+                    <li style="padding: 0.5rem; background: #f8fafc; border-radius: 6px;">📄 latihan_array_list.py</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>📖 Dokumen ini bersifat <em>open source</em>. Edit, duplikasi, atau sesuaikan dengan kebutuhan pembelajaran Anda.</p>
+            <p style="margin-top: 0.5rem;">Dibangun untuk siswa dan guru yang ingin menguasai Python. 🐍✨</p>
+            <p style="margin-top: 1rem; font-size: 0.8rem;">© 2026 Python Learning Hub | <a href="https://github.com/daniarsyah/python-learning">GitHub</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
